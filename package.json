@@ -1,0 +1,33 @@
+{
+  "name": "signature-canvas-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "internal-ip": "^7.0.0",
+    "next": "11.1.0",
+    "public-ip": "^5.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "signature_pad": "^4.0.2",
+    "trim-canvas": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*.ts": "eslint --cache --fix"
+  }
+}
